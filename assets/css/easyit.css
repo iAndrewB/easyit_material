@@ -1,5 +1,33 @@
-footer {
-    bottom: 0px!important;
-    position: fixed;
-    width: 80%;
+body{
+    font-size: 0.9rem!important;
+}
+.hide{
+    display:none;
+}
+.main-panel > .content {
+    padding: 0px!important;
+    min-height: calc(100vh - 152px)!important;
+}
+.btn-group{
+    margin:0px !important;
+}
+
+.table th, .table td {
+    padding: 0.3rem!important;
+}
+.footable-filtering-search{
+    padding-bottom: 0px!important;
+}
+.footable-filtering form{
+    float: right!important;
+}
+.pagination{
+    margin:1px!important;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #ffffff!important;
+    background-color: #00bcd4!important;
+}
+.input-group-btn{
+    padding-right: 0px!important;
 }

@@ -4123,7 +4123,7 @@
                 }),
                 $dropdown_toggle = $('<button/>', {
                     type: 'button',
-                    'class': 'btn btn-default dropdown-toggle'
+                    'class': 'btn btn-default dropdown-toggle hide'
                 })
                 .on('click', {
                     self: self
@@ -6565,7 +6565,7 @@
          * @returns {(string|HTMLElement|jQuery)}
          */
         $buttonShow: function () {
-            return '<button type="button" class="btn btn-primary footable-show">' + this.showText + '</button>';
+            return '<button type="button" class="footable-show">' + this.showText + '</button>';
         },
         /**
          * Creates the hide button for the editing component.
@@ -6574,7 +6574,7 @@
          * @returns {(string|HTMLElement|jQuery)}
          */
         $buttonHide: function () {
-            return '<button type="button" class="btn btn-default footable-hide">' + this.hideText + '</button>';
+            return '<button type="button" class="footable-hide">' + this.hideText + '</button>';
         },
         /**
          * Creates the add button for the editing component.
@@ -6583,7 +6583,7 @@
          * @returns {(string|HTMLElement|jQuery)}
          */
         $buttonAdd: function () {
-            return '<button type="button" class="btn btn-primary footable-add">' + this.addText + '</button> ';
+            return '<button type="button" class="footable-add">' + this.addText + '</button> ';
         },
         /**
          * Creates the edit button for the editing component.
@@ -6592,7 +6592,7 @@
          * @returns {(string|HTMLElement|jQuery)}
          */
         $buttonEdit: function () {
-            return '<button type="button" class="btn btn-default footable-edit">' + this.editText + '</button> ';
+            return '<button type="button" class="footable-edit">' + this.editText + '</button> ';
         },
         /**
          * Creates the delete button for the editing component.
@@ -6601,7 +6601,7 @@
          * @returns {(string|HTMLElement|jQuery)}
          */
         $buttonDelete: function () {
-            return '<button type="button" class="btn btn-default footable-delete">' + this.deleteText + '</button>';
+            return '<button type="button" class="footable-delete">' + this.deleteText + '</button>';
         },
         /**
          * Creates the view button for the editing component.
